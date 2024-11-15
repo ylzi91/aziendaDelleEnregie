@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Button, Form } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
 
@@ -6,6 +6,12 @@ export function Login() {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
   const navigate = useNavigate()
+
+  useEffect(()=> {
+    let token = localStorage.getItem('mytoken')
+    if(token != '')
+      navigate('/profilo')
+  },[])
 
   const loginFetch = async (e) => {
     e.preventDefault()
