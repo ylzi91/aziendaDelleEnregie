@@ -89,6 +89,17 @@ mvn test
 bash
 Copia codice
 npm run test
+
+## Struttura del progetto
+Includi una breve descrizione della struttura principale del progetto:
+
+/.mvn
+ /src
+  ├── main
+       ├── java/team1BW/AziendaDelleEnergie     # Pagine principali dell'app
+         ├── resources                          # Configurazione principale dell'app
+ ├── pom.xml                                    # dipendenze dell'app
+ 
  
 Contribuzione
 Per contribuire, fare un fork del progetto, creare un nuovo branch, effettuare le modifiche e fare una pull request.
