@@ -29,7 +29,7 @@ Questa applicazione consente di gestire le fatture dei clienti e i dati dei clie
    Configurare il database MySQL (o un altro RDBMS a scelta) e aggiornare `application.properties` in `src/main/resources` con le credenziali del database:
 
    ```properties
-   spring.datasource.url=jdbc:mysql://localhost:3306/nome_del_database
+   spring.datasource.url=jdbc:mysql://localhost:3001/nome_del_database
    spring.datasource.username=tuo_username
    spring.datasource.password=tua_password
 3.	Avviare il backend:
