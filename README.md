@@ -94,8 +94,9 @@ Contribuzione
 Per contribuire, fare un fork del progetto, creare un nuovo branch, effettuare le modifiche e fare una pull request.
 Contatti
 Per maggiori informazioni, contattare :
-[ dianadorojuc3@gmail.com
-norfoantonio@gmail.com
+[ ylzi91@gmail.com - 
+dianadorojuc3@gmail.com -
+norfoantonio@gmail.com -
 campionluca3@gmail.com ]
  
 Licenza
