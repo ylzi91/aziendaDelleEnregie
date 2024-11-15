@@ -58,7 +58,7 @@ VITE_API_BASE_URL=http://localhost:8080/api
 bash
 Copia codice
 npm run dev
-4.	Navigare all'indirizzo: http://localhost:3000 per utilizzare l'applicazione.
+4.	Navigare all'indirizzo: http://localhost:3001 per utilizzare l'applicazione.
  
 Funzionalità Principali
 Clienti
@@ -91,15 +91,14 @@ Copia codice
 npm run test
 
 ## Struttura del progetto
-Includi una breve descrizione della struttura principale del progetto:
 
-/.mvn
+``` /.mvn
  /src
   ├── main
        ├── java/team1BW/AziendaDelleEnergie     # Pagine principali dell'app
          ├── resources                          # Configurazione principale dell'app
  ├── pom.xml                                    # dipendenze dell'app
- 
+ ```
  
 Contribuzione
 Per contribuire, fare un fork del progetto, creare un nuovo branch, effettuare le modifiche e fare una pull request.
