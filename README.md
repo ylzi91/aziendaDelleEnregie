@@ -44,7 +44,7 @@ o	POST /api/fatture: Crea una nuova fattura.
 o	PUT /api/clienti/{id}: Modifica un cliente esistente.
 o	DELETE /api/clienti/{id}: Elimina un cliente esistente.
  
-Configurazione del Frontend
+## Configurazione del Frontend
 1.	Installare le dipendenze:
 bash
 Copia codice
